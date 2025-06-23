@@ -1,22 +1,14 @@
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
-       System.out.println(count("1",0));
-    }
-    public static String count(String n ,int idx)
-    {
-        if(idx>=n.length()) return "";
-
-        char ch= n.charAt(idx);
-        int count=0;
-        // System.out.println(n.length()+"idx"+idx);
-        while(idx<n.length() && ch==n.charAt(idx))
-        {
-            idx++;
-            count++;
-        }
-
-        return count+(ch-'0')+count(n,idx);
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Please enter number 1");
+        int number1=sc.nextInt();
+        System.out.println("Please enter number 2");
+        int number2=sc.nextInt();
+        System.out.println("Ans"+number1+number2);
 
 
     }
+
 }
