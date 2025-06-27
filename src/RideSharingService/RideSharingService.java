@@ -70,7 +70,7 @@ public class RideSharingService {
                 if(distance<=15.0)
                 {
                     foundNearByAvailableDriver=true;
-                    System.out.println("Notifying driver "+dirver.getName()+" about ride request"+trip.getId());
+//                    System.out.println("Notifying driver "+dirver.getName()+" about ride request"+trip.getId());
                   return ;
                 }
             }
